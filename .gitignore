@@ -33,6 +33,10 @@ site/.pnpm-debug.log*
 # env files (can opt-in for committing if needed)
 site/.env*
 
+express-server/.env*
+express-server/node_modules*
+
+
 # vercel
 site/.vercel
 

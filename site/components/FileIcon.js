@@ -27,6 +27,7 @@ export default function FileIcon({ text, icon, isSelected, onClick, delay }) {
                     backgroundSize: 'contain',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
+                    imageRendering: 'pixelated',
                     borderRadius: 4,
                     filter: icon ? 'drop-shadow(0 2px 4px rgba(0,0,0,0.5))' : 'none',
                     backdropFilter: isSelected ? 'blur(4px) saturate(160%) sepia(30%) hue-rotate(-15deg)' : 'none',

@@ -204,6 +204,7 @@ export default function Home() {
           {stage === "loading" && <LoadingScreen />}
           {stage === "computer" && (
             <MainView
+              isJungle={false}
               isLoggedIn={isLoggedIn}
               setIsLoggedIn={setIsLoggedIn}
               userData={userData}

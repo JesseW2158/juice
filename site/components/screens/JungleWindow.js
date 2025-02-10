@@ -286,7 +286,7 @@ export default function JungleWindow({ position, isDragging, isActive, handleMou
             }
 
             // Fetch updated user data to get new total time
-            const userResponse = await fetch('/api/user', {
+            const userResponse = await fetch('https://sww48o88cs88sg8k84g4s4kg.a.selfhosted.hackclub.com/api/user', {
                 headers: {
                     'Authorization': `Bearer ${userData.token}`
                 }
